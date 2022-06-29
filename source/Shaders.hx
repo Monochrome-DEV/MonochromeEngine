@@ -1334,7 +1334,7 @@ class MPEGEffect extends Effect
 	public var shader:MPEG;
 	public function new (lockAlpha){
 		shader = new MPEG();
-		shader.lockAlpha.value = [lockAlpha];
+//		shader.lockAlpha.value = [lockAlpha];
 	}
 	
 	
